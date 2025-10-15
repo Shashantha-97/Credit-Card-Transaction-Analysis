@@ -60,17 +60,21 @@ This helps understand **behavior patterns** before running advanced analysis.
 
 ---
 
-## ADHOC Analysis
-- Scripts in the `AdhocAnlaysis/` folder include 9 SQL questions with answers:  
-	1- Top 5 cities with highest spends and their percentage contribution of total credit card spends 
-	2- Highest spend month and amount spent in that month for each card type
-	3- Transaction details(all columns from the table) for each card type when it reaches a cumulative of 1000000 total spends
-	4- City which had lowest percentage spend for gold card type
-	5- Print 3 columns:  city, highest_expense_type , lowest_expense_type (example format : Delhi , bills, Fuel)
-	6- Percentage contribution of spends by females for each expense type
-	7- Card and expense type combination having highest month over month growth in Jan-2014
-	9- City with Highest total spend to total no of transcations ratio during weekends
-   10- City that took least number of days to reach its 500th transaction after the first transaction in that city
+## Ad-hoc Analysis
+
+The SQL scripts in the `AdhocAnalysis/` folder include **9 analytical questions with their answers:**
+
+1. **Top 5 cities** with highest spends and their percentage contribution of total credit card spends.  
+2. **Highest spend month** and amount spent in that month for each card type.  
+3. **Transaction details** (all columns) for each card type when it reaches a cumulative of ₹1,000,000 total spends.  
+4. **City with the lowest percentage spend** for Gold card type.  
+5. **City-wise expense pattern:** Display 3 columns — city, highest_expense_type, lowest_expense_type.  
+   _Example_: `Delhi | Bills | Fuel`  
+6. **Percentage contribution of spends by females** for each expense type.  
+7. **Card and expense type combination** with the highest month-over-month growth in Jan-2014.  
+8. **City with highest spend-to-transaction ratio** during weekends.  
+9. **City that reached its 500th transaction fastest** after the first transaction in that city.
+
  
 
 Each query is documented with **description and takeaway insights**.
