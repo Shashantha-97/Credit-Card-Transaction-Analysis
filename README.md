@@ -24,12 +24,12 @@ The analysis covers **transactions by card type, expense type, city, gender, and
 ---
 
 ## Folder Structure
-CreditCardTransactions/
-├─ StoredProcedure/ # Key stored procedure for analysis
-├─ AdhocAnlaysis/ # SQL queries to perform the analysis
-├─ DataExploration/ # SQL scripts exploring the dataset
-├─ Dataset/ # Raw CSV dataset
-└─ README.md # Project documentation (this file)
+CreditCardTransactions/  
+├─ StoredProcedure/ # Key stored procedure for analysis  
+├─ AdhocAnlaysis/ # SQL queries to perform the analysis  
+├─ DataExploration/ # SQL scripts exploring the dataset  
+├─ Dataset/ # Raw CSV dataset  
+└─ README.md # Project documentation (this file)  
 
 ---
 
