@@ -8,7 +8,6 @@
 5. [ADHOC Analysis](#adhoc-analysis)
 6. [Stored Procedures](#stored-procedures)
 7. [Stored Procedure Usage](#stored-procedure-usage)
-8. [Highlights](#highlights)
 
 ---
 
@@ -75,9 +74,7 @@ The SQL scripts in the `AdhocAnalysis/` folder include **9 analytical questions 
 8. **City with highest spend-to-transaction ratio** during weekends.  
 9. **City that reached its 500th transaction fastest** after the first transaction in that city.
 
- 
 
-Each query is documented with **description and takeaway insights**.
 
 # Stored Procedures
 - Key stored procedure: `AnalyzeCardTypeExpYearCombined.sql`  
@@ -95,12 +92,6 @@ CALL AnalyzeCardTypeExpYearCombined('Gold');
 -- Analyze all card types
 CALL AnalyzeCardTypeExpYearCombined(NULL); or CALL AnalyzeCardTypeExpYearCombined('');
 
- 1- The output includes year-wise summary, total transactions, total amount, average amount, and high-risk flag
- 2- Useful for dashboards and reports for non-technical users
+ 1- The output includes year-wise summary, total transactions, total amount, average amount, and high-risk flag  
+ 2- Useful for dashboards and reports for non-technical users  
  
---
- 
-## Highlights
- - Automatic high-risk transaction detection per card type
-
- - Year-wise trend and summary per card type and expense type
