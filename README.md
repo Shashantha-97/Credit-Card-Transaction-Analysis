@@ -85,7 +85,7 @@ The SQL scripts in the `AdhocAnalysis/` folder include **9 analytical questions 
 - Key stored procedure: `AnalyzeCardTypeExpYearCombined.sql`  
 - **Purpose:**  
   - Provides **combined summary and trend analysis** for each card type and expense type by year  
-  - Flags **high-risk transactions** automatically (above-average spending)  
+  - Flags **high-risk transactions** automatically (If more than 50% of transactions in a card type exceed the average amount for that card type, expense type and by year , flagging them 'High Risk'.)  
 - Stored procedures are saved in the `StoredProcedures/` folder.
 
 ---

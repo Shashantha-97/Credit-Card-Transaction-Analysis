@@ -2,9 +2,8 @@
 -- Credit Card Transactions Analysis
 -- Stored Procedure: AnalyzeCardTypeExpYearCombined
 -- Description: 
---   1. Analyzes credit card transactions dataset from Kaggle
---   2. Outputs summary and trend analysis per card_type
---   3. High Risk flags included -- If more than 50% of transactions in a card type exceed the average amount, flagging them 'High Risk'.
+--   1. Outputs summary and trend analysis per card_type
+--   2. High Risk flags included -- If more than 50% of transactions in a card type exceed the average amount, flagging them 'High Risk'.
 -- Usage:
 --   CALL AnalyzeCardTypeExpYearCombined('Gold');  -- Specific card type
 --   CALL AnalyzeCardTypeExpYearCombined('');    -- '' or NULL for All card types
