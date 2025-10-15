@@ -100,4 +100,4 @@ CALL AnalyzeCardTypeExpYearCombined(NULL); or CALL AnalyzeCardTypeExpYearCombine
  1- The output includes year-wise summary, total transactions, total amount, average amount, and high-risk flag  
  2- Useful for dashboards and reports for non-technical users  
  
-# Credit-Card-Transaction-AnalysisCredit-Card-Transaction-Analysis
+ 
